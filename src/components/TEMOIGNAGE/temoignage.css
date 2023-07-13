@@ -1,0 +1,50 @@
+.section {
+    background-image: url(https://mdbcdn.b-cdn.net/img/Photos/Others/background2.webp);
+  }
+  
+  .card {
+    border-radius: 15px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-body {
+    margin: 15px;
+  }
+  
+  .card .row {
+    align-items: center;
+  }
+  
+  .card .col-lg-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .card .col-lg-4 img {
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card .col-lg-8 {
+    padding-left: 1rem;
+  }
+  
+  .card .text-muted {
+    color: #888;
+  }
+  
+  .card .lead {
+    margin-bottom: 1rem;
+  }
+  
+  .card .fw-bold {
+    font-weight: bold;
+  }
+  
+  .card .text-muted.mb-0 {
+    margin-bottom: 0;
+  }
+  

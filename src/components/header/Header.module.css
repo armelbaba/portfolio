@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    background-color: cadetblue;
+    align-items: center;
+    column-gap: 1rem;
+    height: 5rem;
+    width: 100%;
+}
+
+.portfolio{
+    color: white;
+    padding-left: 1rem;
+    font-size: 20px;
+    font-weight: bold;
+}

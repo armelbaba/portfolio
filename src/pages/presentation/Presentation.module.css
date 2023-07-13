@@ -1,0 +1,117 @@
+.i {
+  display: flex;
+  height: 100vh;
+  
+}
+
+.left {
+  flex:2 ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right {
+  flex: 1;
+  position: relative;
+}
+
+.leftwrapper {
+  padding: 0 50px 0 50px;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.title {
+  height: 50px;
+  overflow: hidden;
+}
+
+.titlewrapper {
+  height: 100%;
+  animation: move 10s ease-in-out infinite alternate;
+}
+
+@keyframes move {
+  25% {
+    transform: translateY(-50px);
+  }
+  50% {
+    transform: translateY(-100px);
+  }
+  75% {
+    transform: translateY(-150px);
+  }
+  100% {
+    transform: translateY(-200px);
+  }
+}
+
+.titleitem {
+  height: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #59b256;
+  display: flex;
+  align-items: center;
+}
+
+p{
+  line-height: normal;
+}
+.infoimg{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+.infobg{
+  clip-path: polygon(100% 0%, 100% 51%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+  background-color: cadetblue;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+
+}
+
+.titre{
+color: black;
+font-weight: bold;
+}
+
+.name, .intro{
+  
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 480px) {
+  .i {
+    flex-direction: column;
+  }
+
+  .leftwrapper {
+  
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+  }
+
+  .desc{ 
+
+    overflow: hidden;
+    color: black;
+  }
+
+  
+  
+}

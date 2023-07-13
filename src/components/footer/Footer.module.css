@@ -1,0 +1,13 @@
+.footer {
+    display: flex;
+    background-color: cadetblue;
+    align-items: center;
+    column-gap: 3rem;
+    height: 5rem;
+    width: 100%;
+}
+
+.developper{
+
+    margin-left: 2rem;
+}
